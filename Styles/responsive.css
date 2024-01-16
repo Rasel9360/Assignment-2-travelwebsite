@@ -1,5 +1,8 @@
 @media screen and (max-width: 600px) {
-    nav , .perfect-place-container{
+
+    nav,
+    .perfect-place-container, 
+    .deals-card {
         flex-direction: column;
         width: 100%;
     }
@@ -109,17 +112,20 @@
 
     .destination-container,
     .choose-us-container,
-    .newsletter-container, 
-    .perfect-place-container {
+    .newsletter-container,
+    .perfect-place-container, 
+    .discount-container {
         width: 90%;
     }
 
-    .destination-title {
+    .destination-title, 
+    .deals-title {
         font-size: 1.8rem;
     }
 
     .destination-dsp,
-    .choose-us-dsp {
+    .choose-us-dsp, 
+    .deals-dsp {
         width: 90%;
     }
 
@@ -146,7 +152,7 @@
         width: 100%;
     }
 
-    iframe{
+    iframe {
         width: 100%;
     }
 
@@ -165,5 +171,20 @@
 
     .discount-card-title {
         font-size: 1.1rem;
+    }
+    .deals-card{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .deals-subcard, 
+    .deals-subcard-2{
+        width: 100%;
+        align-items: center;
+        padding: 15px;
+    }
+    .deals-card, 
+    .deals-card-2{
+        padding: 150px 15px 15px 15px;
     }
 }

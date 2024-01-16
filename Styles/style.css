@@ -323,6 +323,7 @@ button:hover {
 .text {
     font-size: 1rem;
     font-weight: 400;
+    color: #5A5A5D;
 }
 
 /* Newsletter Related Styles */
@@ -452,7 +453,87 @@ footer {
     margin-bottom: 20px;
 }
 
-.perfect-place-info ul li{
+.perfect-place-info ul li {
     margin: 10px 0px 10px 20px;
 }
 
+/* Deals & Discounts section Related Styles */
+.discount-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.deals-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals-dsp {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 643px;
+    margin: auto;
+
+}
+
+.deals-card {
+    background-image: url('../Images/Group 39.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    padding: 48px 48px 48px 0px;
+}
+
+.deals-card-2{
+    background-image: url('../Images/Group 40.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    margin-top: 50px;
+    display: flex;
+    padding: 48px 0px 48px 48px;
+}
+
+.deals-subcard {
+    width: 50%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    text-align: start;
+    padding: 50px;
+}
+.deals-subcard-2 {
+    width: 50%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    text-align: start;
+    padding: 50px;
+}
+
+.deals-subcard-title {
+    color: #131318;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.subcard-price {
+    color: #FF5400;
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin-top: 16px;
+}
