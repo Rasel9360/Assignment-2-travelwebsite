@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:wght@300;400;500;600;700;800;900;1000&family=Work+Sans:ital,wght@0,400;0,500;0,700;0,800;1,600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header Related Styles */
+
+header {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 44px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.nav-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+/* Banner Related Styles */
+
+.banner-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Banner-.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.banner-dsp {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 676px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.banner-form {
+    padding-bottom: 20px;
+}
+
+.banner-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    gap: 20px;
+    padding: 16px;
+    margin: 50px 230px;
+
+}
+
+input,
+select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500px;
+    outline: none;
+}
+
+.banner-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border-style: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(90%);
+}
+
+/* Our Popular Section related style */
+
+.popular-section-container {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.popular-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.popular-info ul {
+    margin-left: 40px;
+    padding: 24px 0px;
+}
+
+.popular-info ul li {
+    margin-bottom: 24px;
+}
+
+/* Shared styles */
+.text-light-gray {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-style: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* Choose Your Destination Related Styles */
+
+.destination-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.destination-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.destination-dsp {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: auto;
+}
+
+.destination-image-box-1,
+.destination-image-box-2,
+.destination-image-box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.destination-image-box-1 div img,
+.destination-image-box-2 div img,
+.destination-image-box-3 div img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.destination-img-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 45%;
+    right: 40%;
+
+}
+
+.destination-img-title-1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 45%;
+    right: 30%;
+
+}
+
+.destination-img-title-2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 45%;
+    right: 30%;
+
+}
+
+.box-1 {
+    position: relative;
+}
+
+/* Why Choose Us Related Styles */
+
+.choose-us-container {
+    max-width: 1200px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.choose-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.choose-us-dsp {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 24px auto;
+}
+
+.choose-us-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.choose-us-card {
+    flex-basis: 588px;
+    text-align: start;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.choose-us-card-2 {
+    flex-basis: 588px;
+    text-align: start;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.choose-us-card-3 {
+    flex-basis: 588px;
+    text-align: start;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+}
+
+.choose-card-title {
+    color: #131318;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 16px 0px;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Newsletter Related Styles */
+.newsletter-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.newsletter-info {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+hr {
+    width: 410px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 24px 0px;
+}
+
+form input {
+    width: 410px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 10px 0px;
+    text-align: start;
+    padding: 16px;
+}
+
+.newsletter-btn {
+    width: 410px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    cursor: pointer;
+    border-style: none;
+    padding: 16px;
+}
+
+.newsletter-image {
+    position: relative;
+}
+
+.discount-card {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    padding: 20px;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    left: 51%;
+    bottom: 13%;
+}
+
+.discount-card-title {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Footer Related Styles */
+footer {
+    margin: 0px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.footer-info {
+    margin: 20px;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-media a {
+    font-size: 1.5rem;
+    color: rgb(29, 28, 28);
+    margin-bottom: 50px;
+}
+
+.hr {
+    border-top: 1px solid rgba(27, 27, 29, 0.1);
+    width: 100%;
+    text-align: center;
+
+}
+
+/* A Simple Perfect Place section Related Styles */
+
+.perfect-place-container {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 40px;
+}
+
+.perfect-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.perfect-place-info ul li{
+    margin: 10px 0px 10px 20px;
+}
+
