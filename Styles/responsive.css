@@ -10,7 +10,7 @@
 
     .nav-title {
         color: #131318;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 800;
     }
 
@@ -165,8 +165,8 @@
     .discount-card {
         width: 200px;
         position: absolute;
-        left: 40%;
-        bottom: 13%;
+        left: 35%;
+        bottom: 15%;
     }
 
     .discount-card-title {
@@ -186,5 +186,76 @@
     .deals-card, 
     .deals-card-2{
         padding: 150px 15px 15px 15px;
+    }
+}
+
+/* Medium/Tablet Devices Related Styles */
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    nav,
+    .perfect-place-container, 
+    .deals-card {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .banner-input {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-container {
+        background-position: center;
+        height: auto;
+        width: 90%;
+    }
+    .popular-section-container {
+        flex-direction: column;
+        width: 90%;
+    }
+    .deals-card{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .deals-subcard, 
+    .deals-subcard-2{
+        width: 100%;
+        align-items: center;
+        padding: 15px;
+    }
+    .deals-card, 
+    .deals-card-2{
+        padding: 150px 15px 15px 15px;
+    }
+
+    .discount-container{
+        width: 90%;
+    }
+    .perfect-place-container{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+    .newsletter-container{
+        width: 80%;
+        flex-direction: column;
+    }
+    .newsletter-info{
+        text-align: center;
+    }
+
+    hr{
+        margin: 24px auto;
+    }
+    .destination-container{
+        width: 90%;
     }
 }
