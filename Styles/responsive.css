@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
 
     nav,
-    .perfect-place-container, 
+    .perfect-place-container,
     .deals-card {
         flex-direction: column;
         width: 100%;
@@ -99,46 +99,52 @@
         object-fit: cover;
     }
 
-    /* Our destination Section */
-    .destination-image-box-1,
-    .destination-image-box-2,
-    .destination-image-box-3 {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 24px;
-        margin-top: 24px;
+    /* Destination section */
+    .destination-container,
+    .destination-dsp {
+        width: 90%;
     }
 
-    .destination-container,
+    .destination-image-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .destination-image-container div img {
+        margin-bottom: 15px;
+        height: 200px;
+    }
+
+    .image-title-dst-1 {
+        position: absolute;
+        bottom: 50%;
+        left: 30%;
+    }
+
+    .image-title-dst {
+        position: absolute;
+        bottom: 50%;
+        left: 30%;
+    }
+
     .choose-us-container,
     .newsletter-container,
-    .perfect-place-container, 
+    .perfect-place-container,
     .discount-container {
         width: 90%;
     }
 
-    .destination-title, 
+    .destination-title,
     .deals-title {
         font-size: 1.8rem;
     }
 
-    .destination-dsp,
-    .choose-us-dsp, 
+    .choose-us-dsp,
     .deals-dsp {
         width: 90%;
-    }
-
-    .destination-img-title {
-        position: absolute;
-        bottom: 45%;
-        right: 35%;
-    }
-
-    .destination-img-title-2 {
-        position: absolute;
-        bottom: 45%;
-        right: 35%;
     }
 
     .newsletter-container {
@@ -172,19 +178,21 @@
     .discount-card-title {
         font-size: 1.1rem;
     }
-    .deals-card{
+
+    .deals-card {
         justify-content: center;
         align-items: center;
     }
-    
-    .deals-subcard, 
-    .deals-subcard-2{
+
+    .deals-subcard,
+    .deals-subcard-2 {
         width: 100%;
         align-items: center;
         padding: 15px;
     }
-    .deals-card, 
-    .deals-card-2{
+
+    .deals-card,
+    .deals-card-2 {
         padding: 150px 15px 15px 15px;
     }
 }
@@ -192,13 +200,14 @@
 /* Medium/Tablet Devices Related Styles */
 
 @media screen and (min-width: 600px) and (max-width: 960px) {
+
     nav,
-    .perfect-place-container, 
+    .perfect-place-container,
     .deals-card {
         flex-direction: column;
         width: 100%;
     }
-    
+
     nav ul {
         flex-wrap: wrap;
         gap: 40px;
@@ -211,51 +220,70 @@
         align-items: center;
         justify-content: center;
     }
+
     .banner-container {
         background-position: center;
         height: auto;
         width: 90%;
     }
+
     .popular-section-container {
         flex-direction: column;
         width: 90%;
     }
-    .deals-card{
+
+    .deals-card {
         justify-content: center;
         align-items: center;
     }
-    
-    .deals-subcard, 
-    .deals-subcard-2{
+
+    .deals-subcard,
+    .deals-subcard-2 {
         width: 100%;
         align-items: center;
         padding: 15px;
     }
-    .deals-card, 
-    .deals-card-2{
+
+    .deals-card,
+    .deals-card-2 {
         padding: 150px 15px 15px 15px;
     }
 
-    .discount-container{
+    .discount-container {
         width: 90%;
     }
-    .perfect-place-container{
+
+    .perfect-place-container {
         flex-direction: column;
         width: 90%;
         align-items: center;
     }
-    .newsletter-container{
+
+    .newsletter-container {
         width: 80%;
         flex-direction: column;
     }
-    .newsletter-info{
+
+    .newsletter-info {
         text-align: center;
     }
 
-    hr{
+    hr {
         margin: 24px auto;
     }
-    .destination-container{
+
+    .destination-container {
         width: 90%;
     }
+
+    .destination-image-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 0px;
+        margin-bottom: 10px;
+    }
+    .destination-image-container div img {
+        margin-bottom: 15px;
+    }
+
 }
