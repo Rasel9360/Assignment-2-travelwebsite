@@ -512,6 +512,34 @@ form input {
     margin-top: 16px;
 }
 
+/* Our partner related styles */
+.airline-container{
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.our-partners-title{
+    font-size: 2rem;
+    color: #424247;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.airlines-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.airlines-logo div img{
+    width: 50%;
+    object-fit: cover;
+}
+.airlines-logo div{
+    width: 100%;
+}
+
 /* Footer Related Styles */
 footer {
     margin: 0px;
